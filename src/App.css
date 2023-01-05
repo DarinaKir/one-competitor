@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.App{
+    font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div{
+    text-align: center;
+    margin: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button, select {
+    margin: 10px;
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+table, tr, td, th{
+    margin:  auto;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    font-size: 50px;
+    font-family: "Papyrus", Fantasy;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    font-family: "Lucida Handwriting ", Cursive;
+}
+
+li{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.league-table-tr, .league-table-td, .league-table-th{
+    width: 300px;
+    height: 30px;
+}
+
+.league-table-tr, .league-table-td, .league-table{
+    border: 2px solid black;
+}
+
+.league-table{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.emphasis :hover {background-color: darkgray;}
+
+.history-table{
+    border-collapse: collapse;
+    font-family: "Lucida Handwriting ", Cursive;
+}
+
+.history-table-td{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 23px;
+}
+
+.top {
+    text-shadow: 2px 2px 5px blue;
+    font-weight: bold;
+}
+
+.lower {
+    text-shadow: 2px 2px 5px red;
+    font-weight: bold;
+}
+
+.round-results {
+    list-style-type: none;
+    margin: 20px;
+    border-radius: 100px;
+    border-style: inset;
+    font-family: "Courier New", Monospace;
+}
+
+.error-message {
+    color: red;
+}
+
+.statistics-table {
+    border-collapse: collapse;
+    width: 1000px;
+    height: auto;
+}
+
+.statistics-table-th, .statistics-table-td {
+    text-align: center;
+    padding: 10px;
+}
+
+.statistics-table-tr:nth-child(even) {background-color: #f2f2f2;}
+
+.active{
+    color: red;
+}
+.main-link{
+    margin: 10px;
 }
