@@ -69,7 +69,7 @@ class Tables extends Component {
                                 if ( scoresCompare === 0) {
                                     let goalsCompare = ((b.information.goalsDifference.currentTeamGoals - b.information.goalsDifference.rivalTeamGoals )- (a.information.goalsDifference.currentTeamGoals - a.information.goalsDifference.rivalTeamGoals))
                                     if (goalsCompare === 0){
-                                        return b.name.localeCompare(a.name);
+                                        return ((a.name.charAt(0)).localeCompare(b.name.charAt(0)));
                                     }
                                     return goalsCompare;
                                 }
